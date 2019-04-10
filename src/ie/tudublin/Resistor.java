@@ -10,8 +10,7 @@ public class Resistor
     public int hundreds;
 
 
-   
-
+    
 	//Constructor 
     public Resistor(int value)
     {
