@@ -11,7 +11,7 @@ public class Colour
 
     private String colour;
 
-    public float range;
+    public float v;
 
     public Colour(TableRow row)
     {
@@ -21,12 +21,12 @@ public class Colour
         this.g = row.getInt("g");
         this.colour = row.getString("colour");
 
-        this.range = row.getFloat("v");
+        this.v = row.getFloat("v");
     }
 
     public String toString()
     {
-        return colour + "\t" + r + "\t" + g+ "\t" + b+ "\t" + range;
+        return colour + "\t" + r + "\t" + g+ "\t" + b+ "\t" + v;
     }
 
     /**
