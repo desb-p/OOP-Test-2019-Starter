@@ -1,5 +1,6 @@
 package ie.tudublin;
 
+import java.awt.Color;
 import java.util.ArrayList;
 
 import processing.core.PApplet;
@@ -58,6 +59,18 @@ public class UI extends PApplet
 		{
 			System.out.println(colours);
 		}
+	}
+
+	public Colour FindColour(int val)
+	{
+		for(Colour c:colours)
+		{
+			if(val == c.v)
+			{
+				return c;
+			}
+		}
+		return null;
 	}
 
 
