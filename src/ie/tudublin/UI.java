@@ -43,6 +43,7 @@ public class UI extends PApplet
 
 	}
 
+	//Method
 	public void loadColours()
 	{
 
@@ -53,6 +54,7 @@ public class UI extends PApplet
 			colours.add(c);
 		}
 	}
+	//Method
 	public void printColours()
 	{
 		for(Colour c: colours)
@@ -61,6 +63,7 @@ public class UI extends PApplet
 		}
 	}
 
+	//Method
 	public Colour FindColour(int val)
 	{
 		for(Colour c:colours)
@@ -72,6 +75,7 @@ public class UI extends PApplet
 		}
 		return null;
 	}
+
 
 
 }
