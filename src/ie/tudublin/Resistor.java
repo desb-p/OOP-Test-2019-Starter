@@ -8,8 +8,16 @@ public class Resistor
     public int ones;
     public int tens;
     public int hundreds;
-    
 
 
+    //Constructor 
+    public void Resistor(int value)
+    {
+        this.value = value;
+        this.ones = ones;
+        this.tens = tens;
+        this.hundreds = hundreds;
+        
+    }
 
 }
