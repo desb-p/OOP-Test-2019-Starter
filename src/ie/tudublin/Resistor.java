@@ -10,14 +10,17 @@ public class Resistor
     public int hundreds;
 
 
-    //Constructor 
-    public void Resistor(int value)
+   
+
+	//Constructor 
+    public Resistor(int value)
     {
         this.value = value;
         this.ones = ones;
         this.tens = tens;
         this.hundreds = hundreds;
-        
+
+       
     }
 
 }
