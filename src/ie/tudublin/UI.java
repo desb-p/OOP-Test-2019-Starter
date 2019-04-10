@@ -40,17 +40,21 @@ public class UI extends PApplet
 	
 	public void setup() 
 	{
+		loadColours();
+		printColours();
 
 	}
 	
 	public void draw()
 	{		
-		// Colour c.render();
-		// Resistor r.render();
+		//Colour c.render();
+		//Resistor r.render();
 
 		background(170);
 
 		
+
+
 
 
 	}
